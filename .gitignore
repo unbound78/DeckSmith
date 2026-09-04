@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# 渲染产出 / 运行时生成
+outputs/
+*.local.pptx
+*.local.html
+
+# 截图缓存(playwright)
+.screenshots-cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 隐私 / 凭证(绝不入库)
+*.env
+.env
+secrets.*
+chrome-profile/
+
+# 内部协作文档(给 AI 看的,不公开发布)
+AI_GUIDE.md

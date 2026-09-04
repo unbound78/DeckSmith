@@ -1,0 +1,51 @@
+{
+  "id": "olive-gradient",
+  "name": "Olive Gradient",
+  "name_cn": "黛色橄榄",
+  "description": "文艺沉稳单色系。品牌故事、文学出版",
+  "axes": {
+    "tone": "medium",
+    "hue_family": "neutral",
+    "saturation": "low",
+    "contrast": "high"
+  },
+  "palette": {
+    "bg": "#F1F0ED",
+    "bg_soft": "#EAE9E5",
+    "card_top": "#FFFFFF",
+    "card_bottom": "#E4E2DC",
+    "border": "rgba(91, 83, 57, 0.4)",
+    "text": "#343127",
+    "text_dim": "#6A6657",
+    "text_mute": "#918E81",
+    "text_faint": "#B6B4AE",
+    "primary": "#5B5339",
+    "primary_mid": "#A88D38",
+    "primary_bright": "#C0AC6C",
+    "primary_soft": "#D0C7A8",
+    "primary_pale": "#E0DBCC",
+    "primary_wash": "#F4F2EB",
+    "accent": "#AEB181",
+    "accent_soft": "#D3D88C",
+    "accent_pale": "#E2E4CD",
+    "accent_wash": "#F3F4EB"
+  },
+  "typography": {
+    "display": "Cormorant, 'Noto Serif SC', Georgia, serif",
+    "body": "'IBM Plex Sans', 'Noto Sans SC', sans-serif",
+    "mono": "'IBM Plex Mono', monospace",
+    "serif_cn": "'Noto Serif SC', Cormorant, serif"
+  },
+  "effects": {
+    "noise_overlay": true,
+    "mesh_gradient": true,
+    "card_shadow": "heavy"
+  },
+  "scenes": [
+    "品牌故事",
+    "文学出版",
+    "文化机构"
+  ],
+  "source": "COLOR-20250909-5.webp",
+  "reference": null
+}

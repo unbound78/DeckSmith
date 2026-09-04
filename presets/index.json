@@ -1,0 +1,149 @@
+{
+  "presets": [
+    {
+      "id": "warm-gold-dark",
+      "name_cn": "暖金暗黑",
+      "axes": {
+        "tone": "dark",
+        "hue_family": "warm",
+        "saturation": "low",
+        "contrast": "high"
+      },
+      "scenes": [
+        "领导汇报",
+        "高端演示",
+        "金融发布会"
+      ]
+    },
+    {
+      "id": "blue-orange-light",
+      "name_cn": "蓝橙亮色",
+      "axes": {
+        "tone": "light",
+        "hue_family": "mixed",
+        "saturation": "medium",
+        "contrast": "high"
+      },
+      "scenes": [
+        "互联网产品",
+        "商务汇报",
+        "数据可视化"
+      ]
+    },
+    {
+      "id": "ink-gradient",
+      "name_cn": "漆黑幽紫",
+      "axes": {
+        "tone": "medium",
+        "hue_family": "cool",
+        "saturation": "low",
+        "contrast": "high"
+      },
+      "scenes": [
+        "科技公司",
+        "技术分享",
+        "研究报告"
+      ]
+    },
+    {
+      "id": "olive-gradient",
+      "name_cn": "黛色橄榄",
+      "axes": {
+        "tone": "medium",
+        "hue_family": "neutral",
+        "saturation": "low",
+        "contrast": "high"
+      },
+      "scenes": [
+        "品牌故事",
+        "文学出版",
+        "文化机构"
+      ]
+    },
+    {
+      "id": "coffee-coral-light",
+      "name_cn": "青瓷珊瑚",
+      "axes": {
+        "tone": "light",
+        "hue_family": "mixed",
+        "saturation": "low",
+        "contrast": "medium"
+      },
+      "scenes": [
+        "新消费",
+        "女性品牌",
+        "生活方式"
+      ]
+    },
+    {
+      "id": "royal-gold-dark",
+      "name_cn": "深紫金橙",
+      "axes": {
+        "tone": "dark",
+        "hue_family": "mixed",
+        "saturation": "high",
+        "contrast": "high"
+      },
+      "scenes": [
+        "奢侈品",
+        "颁奖典礼",
+        "艺术发布"
+      ]
+    },
+    {
+      "id": "morandi-grey",
+      "name_cn": "莫兰迪灰绿",
+      "axes": {
+        "tone": "medium",
+        "hue_family": "neutral",
+        "saturation": "very_low",
+        "contrast": "medium"
+      },
+      "scenes": [
+        "艺术设计",
+        "极简品牌",
+        "独立工作室"
+      ]
+    },
+    {
+      "id": "forest-cream",
+      "name_cn": "米奶油绿",
+      "axes": {
+        "tone": "light",
+        "hue_family": "warm",
+        "saturation": "low",
+        "contrast": "low"
+      },
+      "scenes": [
+        "教育",
+        "亲子",
+        "轻生活品牌"
+      ]
+    }
+  ],
+  "total": 8,
+  "axes_coverage": {
+    "tone": [
+      "dark",
+      "light",
+      "medium"
+    ],
+    "hue_family": [
+      "cool",
+      "mixed",
+      "neutral",
+      "warm"
+    ],
+    "saturation": [
+      "high",
+      "low",
+      "medium",
+      "very_low"
+    ],
+    "contrast": [
+      "high",
+      "low",
+      "medium"
+    ]
+  }
+}

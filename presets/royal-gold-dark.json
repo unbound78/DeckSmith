@@ -1,0 +1,51 @@
+{
+  "id": "royal-gold-dark",
+  "name": "Royal Gold Dark",
+  "name_cn": "深紫金橙",
+  "description": "奢华舞台感。高对比高饱和，颁奖、艺术发布",
+  "axes": {
+    "tone": "dark",
+    "hue_family": "mixed",
+    "saturation": "high",
+    "contrast": "high"
+  },
+  "palette": {
+    "bg": "#0C0C12",
+    "bg_soft": "#09090B",
+    "card_top": "#33333C",
+    "card_bottom": "#21212A",
+    "border": "rgba(23, 22, 53, 0.4)",
+    "text": "#E0E0E5",
+    "text_dim": "#9696A5",
+    "text_mute": "#6E6E7C",
+    "text_faint": "#414148",
+    "primary": "#171635",
+    "primary_mid": "#282571",
+    "primary_bright": "#47449F",
+    "primary_soft": "#7B79B7",
+    "primary_pale": "#9F9EC5",
+    "primary_wash": "#1B1A31",
+    "accent": "#E9A621",
+    "accent_soft": "#DAB262",
+    "accent_pale": "#DDCCAC",
+    "accent_wash": "#3B3220"
+  },
+  "typography": {
+    "display": "Cormorant, 'Noto Serif SC', Georgia, serif",
+    "body": "'IBM Plex Sans', 'Noto Sans SC', sans-serif",
+    "mono": "'IBM Plex Mono', monospace",
+    "serif_cn": "'Noto Serif SC', Cormorant, serif"
+  },
+  "effects": {
+    "noise_overlay": true,
+    "mesh_gradient": true,
+    "card_shadow": "heavy"
+  },
+  "scenes": [
+    "奢侈品",
+    "颁奖典礼",
+    "艺术发布"
+  ],
+  "source": "Color-Matching-20240704-4.jpeg",
+  "reference": null
+}

@@ -1,0 +1,51 @@
+{
+  "id": "blue-orange-light",
+  "name": "Blue Orange Light",
+  "name_cn": "蓝橙亮色",
+  "description": "基于 RGB(0,57,108)+RGB(255,125,35) 推导。亮色互联网风",
+  "axes": {
+    "tone": "light",
+    "hue_family": "mixed",
+    "saturation": "medium",
+    "contrast": "high"
+  },
+  "palette": {
+    "bg": "#F6F7F7",
+    "bg_soft": "#EEEFF1",
+    "card_top": "#FFFFFF",
+    "card_bottom": "#F4F4F5",
+    "border": "rgba(0, 57, 108, 0.15)",
+    "text": "#1C262F",
+    "text_dim": "#415261",
+    "text_mute": "#698095",
+    "text_faint": "#A7B3BD",
+    "primary": "#00396C",
+    "primary_mid": "#1B5F9C",
+    "primary_bright": "#3786CD",
+    "primary_soft": "#7DABD3",
+    "primary_pale": "#A9C3DA",
+    "primary_wash": "#EBEFF4",
+    "accent": "#FF7D23",
+    "accent_soft": "#EE9E66",
+    "accent_pale": "#ECCBB5",
+    "accent_wash": "#F4EEEB"
+  },
+  "typography": {
+    "display": "Cormorant, 'Noto Serif SC', Georgia, serif",
+    "body": "'IBM Plex Sans', 'Noto Sans SC', sans-serif",
+    "mono": "'IBM Plex Mono', monospace",
+    "serif_cn": "'Noto Serif SC', Cormorant, serif"
+  },
+  "effects": {
+    "noise_overlay": true,
+    "mesh_gradient": true,
+    "card_shadow": "medium"
+  },
+  "scenes": [
+    "互联网产品",
+    "商务汇报",
+    "数据可视化"
+  ],
+  "source": "demo_light_blue_orange.html",
+  "reference": null
+}

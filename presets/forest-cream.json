@@ -1,0 +1,51 @@
+{
+  "id": "forest-cream",
+  "name": "Forest Cream Light",
+  "name_cn": "米奶油绿",
+  "description": "森系治愈低对比。教育、亲子、轻生活",
+  "axes": {
+    "tone": "light",
+    "hue_family": "warm",
+    "saturation": "low",
+    "contrast": "low"
+  },
+  "palette": {
+    "bg": "#F7F7F6",
+    "bg_soft": "#F1EFEE",
+    "card_top": "#FFFFFF",
+    "card_bottom": "#F5F4F4",
+    "border": "rgba(212, 163, 115, 0.15)",
+    "text": "#20242B",
+    "text_dim": "#494E59",
+    "text_mute": "#767C88",
+    "text_faint": "#AEB1B6",
+    "primary": "#D4A373",
+    "primary_mid": "#8D5620",
+    "primary_bright": "#BF7C3A",
+    "primary_soft": "#D2BCA7",
+    "primary_pale": "#E0D6CC",
+    "primary_wash": "#F2EFEC",
+    "accent": "#CCD5AE",
+    "accent_soft": "#A7BD5F",
+    "accent_pale": "#E0E8C9",
+    "accent_wash": "#F1F2EC"
+  },
+  "typography": {
+    "display": "Cormorant, 'Noto Serif SC', Georgia, serif",
+    "body": "'IBM Plex Sans', 'Noto Sans SC', sans-serif",
+    "mono": "'IBM Plex Mono', monospace",
+    "serif_cn": "'Noto Serif SC', Cormorant, serif"
+  },
+  "effects": {
+    "noise_overlay": true,
+    "mesh_gradient": true,
+    "card_shadow": "medium"
+  },
+  "scenes": [
+    "教育",
+    "亲子",
+    "轻生活品牌"
+  ],
+  "source": "Color-Matching-20240704-7.jpeg",
+  "reference": null
+}

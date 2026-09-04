@@ -1,0 +1,51 @@
+{
+  "id": "coffee-coral-light",
+  "name": "Coffee Coral Light",
+  "name_cn": "青瓷珊瑚",
+  "description": "柔和清新 5 色。新消费、女性品牌",
+  "axes": {
+    "tone": "light",
+    "hue_family": "mixed",
+    "saturation": "low",
+    "contrast": "medium"
+  },
+  "palette": {
+    "bg": "#F6F7F7",
+    "bg_soft": "#EEF0F1",
+    "card_top": "#FFFFFF",
+    "card_bottom": "#F4F5F5",
+    "border": "rgba(17, 97, 107, 0.15)",
+    "text": "#1D2D2F",
+    "text_dim": "#425D61",
+    "text_mute": "#6B8F93",
+    "text_faint": "#A7BABD",
+    "primary": "#11616B",
+    "primary_mid": "#328B96",
+    "primary_bright": "#5BAEB9",
+    "primary_soft": "#99C3C8",
+    "primary_pale": "#BDD4D7",
+    "primary_wash": "#EBF3F4",
+    "accent": "#DC8B70",
+    "accent_soft": "#C44A21",
+    "accent_pale": "#E0C1B7",
+    "accent_wash": "#F2EEEC"
+  },
+  "typography": {
+    "display": "Cormorant, 'Noto Serif SC', Georgia, serif",
+    "body": "'IBM Plex Sans', 'Noto Sans SC', sans-serif",
+    "mono": "'IBM Plex Mono', monospace",
+    "serif_cn": "'Noto Serif SC', Cormorant, serif"
+  },
+  "effects": {
+    "noise_overlay": true,
+    "mesh_gradient": true,
+    "card_shadow": "medium"
+  },
+  "scenes": [
+    "新消费",
+    "女性品牌",
+    "生活方式"
+  ],
+  "source": "Color-Matching-20240704-1.jpeg",
+  "reference": null
+}

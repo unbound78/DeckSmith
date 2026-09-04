@@ -1,0 +1,51 @@
+{
+  "id": "morandi-grey",
+  "name": "Morandi Grey",
+  "name_cn": "莫兰迪灰绿",
+  "description": "极低饱和莫兰迪风。艺术设计、极简品牌",
+  "axes": {
+    "tone": "medium",
+    "hue_family": "neutral",
+    "saturation": "very_low",
+    "contrast": "medium"
+  },
+  "palette": {
+    "bg": "#F1EDEE",
+    "bg_soft": "#EAE5E7",
+    "card_top": "#FFFFFF",
+    "card_bottom": "#E4DCDE",
+    "border": "rgba(68, 54, 58, 0.4)",
+    "text": "#34272A",
+    "text_dim": "#6A575C",
+    "text_mute": "#918186",
+    "text_faint": "#B6AEB0",
+    "primary": "#44363A",
+    "primary_mid": "#94314D",
+    "primary_bright": "#B85A75",
+    "primary_soft": "#C797A5",
+    "primary_pale": "#D6BBC3",
+    "primary_wash": "#F4EBED",
+    "accent": "#C2CFAF",
+    "accent_soft": "#93B463",
+    "accent_pale": "#DBE8C9",
+    "accent_wash": "#F0F2EC"
+  },
+  "typography": {
+    "display": "Cormorant, 'Noto Serif SC', Georgia, serif",
+    "body": "'IBM Plex Sans', 'Noto Sans SC', sans-serif",
+    "mono": "'IBM Plex Mono', monospace",
+    "serif_cn": "'Noto Serif SC', Cormorant, serif"
+  },
+  "effects": {
+    "noise_overlay": true,
+    "mesh_gradient": true,
+    "card_shadow": "heavy"
+  },
+  "scenes": [
+    "艺术设计",
+    "极简品牌",
+    "独立工作室"
+  ],
+  "source": "Color-Matching-20240704-6.jpeg",
+  "reference": null
+}

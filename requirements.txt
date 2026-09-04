@@ -1,0 +1,6 @@
+# DeckSmith 核心依赖
+python-pptx>=0.6.21   # PPT 原生形状读写
+lxml>=4.9.0           # DrawingML XML 操作(渐变/阴影/文字渐变)
+
+# 可选:HTML 截图验证 / HTML→图嵌入 PPT 时需要
+# playwright>=1.40.0

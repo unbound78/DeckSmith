@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Smart PPT Style Preset",
+  "description": "一套可复用的风格预设，包含色板 + 四维度轴标注 + 场景建议",
+  "type": "object",
+  "required": ["id", "name", "name_cn", "axes", "palette", "source"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "name_cn": { "type": "string" },
+    "description": { "type": "string" },
+    "axes": {
+      "type": "object",
+      "required": ["tone", "hue_family", "saturation", "contrast"],
+      "properties": {
+        "tone": { "enum": ["dark", "light", "medium"] },
+        "hue_family": { "enum": ["warm", "cool", "neutral", "mixed"] },
+        "saturation": { "enum": ["very_low", "low", "medium", "high"] },
+        "contrast": { "enum": ["low", "medium", "high"] }
+      }
+    },
+    "palette": {
+      "type": "object",
+      "required": ["bg", "text", "primary", "accent"],
+      "properties": {
+        "bg": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$", "description": "背景主色" },
+        "bg_soft": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "card_top": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "card_bottom": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "border": { "type": "string", "description": "rgba or hex" },
+        "text": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "text_dim": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "text_mute": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "text_faint": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "primary": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$", "description": "主色" },
+        "primary_mid": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "primary_bright": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "primary_soft": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "primary_pale": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "primary_wash": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "accent": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$", "description": "强调色" },
+        "accent_soft": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "accent_pale": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+        "accent_wash": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" }
+      }
+    },
+    "typography": {
+      "type": "object",
+      "properties": {
+        "display": { "type": "string" },
+        "body": { "type": "string" },
+        "mono": { "type": "string" },
+        "serif_cn": { "type": "string" }
+      }
+    },
+    "effects": {
+      "type": "object",
+      "properties": {
+        "noise_overlay": { "type": "boolean", "description": "是否用 SVG grain (暗色) 或 dot pattern (亮色)" },
+        "mesh_gradient": { "type": "boolean", "description": "是否有多层 radial-gradient" },
+        "card_shadow": { "type": "string", "enum": ["heavy", "medium", "soft", "none"] }
+      }
+    },
+    "scenes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "适用场景标签"
+    },
+    "source": {
+      "type": "string",
+      "description": "源自配色库哪张图"
+    },
+    "reference": {
+      "type": "string",
+      "description": "参考实现路径（HTML 或 PPTX）"
+    }
+  }
+}

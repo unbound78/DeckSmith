@@ -1,0 +1,51 @@
+{
+  "id": "warm-gold-dark",
+  "name": "Warm Gold Dark",
+  "name_cn": "暖金暗黑",
+  "description": "深色暖底 + 金色渐变，适合领导汇报、高端演示",
+  "axes": {
+    "tone": "dark",
+    "hue_family": "warm",
+    "saturation": "low",
+    "contrast": "high"
+  },
+  "palette": {
+    "bg": "#12100C",
+    "bg_soft": "#0B0A09",
+    "card_top": "#3E3831",
+    "card_bottom": "#2A2520",
+    "border": "rgba(196, 150, 90, 0.4)",
+    "text": "#E8E4E0",
+    "text_dim": "#A89E94",
+    "text_mute": "#7D756B",
+    "text_faint": "#4A4440",
+    "primary": "#C4965A",
+    "primary_mid": "#DABA90",
+    "primary_bright": "#E9DDCD",
+    "primary_soft": "#F0EBE4",
+    "primary_pale": "#F3F0EB",
+    "primary_wash": "#31271A",
+    "accent": "#FFF0D5",
+    "accent_soft": "#F9EBD1",
+    "accent_pale": "#F6EEDE",
+    "accent_wash": "#3B3120"
+  },
+  "typography": {
+    "display": "Cormorant, 'Noto Serif SC', Georgia, serif",
+    "body": "'IBM Plex Sans', 'Noto Sans SC', sans-serif",
+    "mono": "'IBM Plex Mono', monospace",
+    "serif_cn": "'Noto Serif SC', Cormorant, serif"
+  },
+  "effects": {
+    "noise_overlay": true,
+    "mesh_gradient": true,
+    "card_shadow": "heavy"
+  },
+  "scenes": [
+    "领导汇报",
+    "高端演示",
+    "金融发布会"
+  ],
+  "source": "暖金色调实战项目",
+  "reference": null
+}

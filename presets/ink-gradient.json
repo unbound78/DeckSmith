@@ -1,0 +1,51 @@
+{
+  "id": "ink-gradient",
+  "name": "Ink Purple Gradient",
+  "name_cn": "漆黑幽紫",
+  "description": "单色系渐变（最高级模式）。科技感、技术分享",
+  "axes": {
+    "tone": "medium",
+    "hue_family": "cool",
+    "saturation": "low",
+    "contrast": "high"
+  },
+  "palette": {
+    "bg": "#EDEEF1",
+    "bg_soft": "#E5E6EA",
+    "card_top": "#FFFFFF",
+    "card_bottom": "#DCDDE4",
+    "border": "rgba(44, 46, 65, 0.4)",
+    "text": "#272834",
+    "text_dim": "#57596A",
+    "text_mute": "#818391",
+    "text_faint": "#AEAFB6",
+    "primary": "#2C2E41",
+    "primary_mid": "#2E378B",
+    "primary_bright": "#515AB4",
+    "primary_soft": "#8F94C2",
+    "primary_pale": "#B3B6D1",
+    "primary_wash": "#EBEBF4",
+    "accent": "#777EA8",
+    "accent_soft": "#7E8AD4",
+    "accent_pale": "#C0C5DD",
+    "accent_wash": "#EBECF4"
+  },
+  "typography": {
+    "display": "Cormorant, 'Noto Serif SC', Georgia, serif",
+    "body": "'IBM Plex Sans', 'Noto Sans SC', sans-serif",
+    "mono": "'IBM Plex Mono', monospace",
+    "serif_cn": "'Noto Serif SC', Cormorant, serif"
+  },
+  "effects": {
+    "noise_overlay": true,
+    "mesh_gradient": true,
+    "card_shadow": "heavy"
+  },
+  "scenes": [
+    "科技公司",
+    "技术分享",
+    "研究报告"
+  ],
+  "source": "COLOR-20250909-2.webp",
+  "reference": null
+}

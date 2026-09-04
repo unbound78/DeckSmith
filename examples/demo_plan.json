@@ -1,0 +1,54 @@
+{
+  "title": "DeckSmith 介绍",
+  "slides": [
+    {
+      "layout": "cover",
+      "watermark": "DS",
+      "eyebrow": "DECKSMITH · OPEN SOURCE",
+      "title_accent": "DeckSmith",
+      "title": "实战派演示生成工具",
+      "title_en": "Battle-tested Deck Generator · HTML + PPT",
+      "subtitle": "preset 配色 + plan 内容 → 一键渲染",
+      "meta": [
+        {"label": "Output", "value": "HTML / PPT", "is_cn": false},
+        {"label": "场景", "value": "工作汇报", "is_cn": true},
+        {"label": "License", "value": "MIT", "is_cn": false}
+      ]
+    },
+    {
+      "layout": "icon-duo",
+      "header": {"num": "i.", "title": "两种输出 · 一套内容", "en": "TWO OUTPUTS · ONE PLAN"},
+      "cards": [
+        {
+          "icon": "⟳", "num": "1.1", "title": "HTML 单页长卷",
+          "tags": [
+            {"text": "scroll-snap", "style": "primary"},
+            {"text": "8 预设配色", "style": "primary"},
+            {"text": "大屏自适应", "style": "warm"},
+            {"text": "浏览器直接放映", "style": "warm"}
+          ]
+        },
+        {
+          "icon": "◈", "num": "1.2", "title": "PPT 原生形状",
+          "tags": [
+            {"text": "可编辑", "style": "primary"},
+            {"text": "渐变 / 阴影", "style": "primary"},
+            {"text": "文字渐变", "style": "warm"},
+            {"text": "溢出预检", "style": "warm"}
+          ]
+        }
+      ],
+      "bottom_message": "同一份 plan，既能出网页长卷，也能出可编辑 PPT"
+    },
+    {
+      "layout": "timeline",
+      "header": {"num": "ii.", "title": "三步生成", "en": "THREE STEPS TO A DECK"},
+      "summary": "选好风格、写好内容，剩下交给渲染器",
+      "stages": [
+        {"icon": "◇", "sub": "STEP 1", "title": "选预设", "desc": "<strong>8 套配色任选</strong><br>暗黑 / 亮色 / 莫兰迪"},
+        {"icon": "◈", "sub": "STEP 2", "title": "填 plan", "desc": "<strong>JSON 描述每页</strong><br>布局 + 内容"},
+        {"icon": "◆", "sub": "STEP 3", "title": "渲染", "desc": "<strong>一键输出</strong><br>HTML 或 PPT"}
+      ]
+    }
+  ]
+}

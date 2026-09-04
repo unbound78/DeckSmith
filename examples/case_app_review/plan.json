@@ -1,0 +1,76 @@
+{
+  "title": "省心记账 · 2025 年度产品复盘",
+  "slides": [
+    {
+      "layout": "cover",
+      "watermark": "25",
+      "eyebrow": "ANNUAL PRODUCT REVIEW · 2025",
+      "title_accent": "省心记账",
+      "title": "2025 年度产品复盘",
+      "title_en": "SAVE · Annual Product Review 2025",
+      "subtitle": "一年的增长、动作与未尽之事",
+      "meta": [
+        {"label": "Period", "value": "2025 全年", "is_cn": true},
+        {"label": "Team", "value": "产品 · 增长", "is_cn": true},
+        {"label": "Type", "value": "Review", "is_cn": false}
+      ]
+    },
+    {
+      "layout": "dashboard",
+      "header": {"num": "01", "title": "年度核心数据", "en": "KEY METRICS"},
+      "summary": "用户规模翻倍，留存与付费同步抬升",
+      "kpis": [
+        {"icon": "◆", "value": "420", "unit": "万", "label": "注册用户", "trend": "▲ +133%"},
+        {"icon": "◇", "value": "120", "unit": "万", "label": "月活 MAU", "trend": "▲ +85%"},
+        {"icon": "◈", "value": "58", "unit": "%", "label": "次日留存", "trend": "▲ +13pt"},
+        {"icon": "●", "value": "430", "unit": "万", "label": "年付费收入", "trend": "▲ +210%"}
+      ]
+    },
+    {
+      "layout": "milestone-line",
+      "header": {"num": "02", "title": "全年关键节点", "en": "MILESTONES"},
+      "summary": "四个季度，四步关键能力落地",
+      "nodes": [
+        {"month": "Q1", "event": "自动记账上线", "desc": "银行短信 + 账单智能识别"},
+        {"month": "Q2", "event": "家庭账本", "desc": "多人协作共享记账"},
+        {"month": "Q3", "event": "会员体系 2.0", "desc": "权益分层重构"},
+        {"month": "Q4", "event": "年度账单 H5", "desc": "社交化传播刷屏"}
+      ]
+    },
+    {
+      "layout": "progress-cards",
+      "header": {"num": "03", "title": "重点动作与成果", "en": "WHAT WE SHIPPED"},
+      "cards": [
+        {"status": "done", "status_label": "已完成", "title": "自动记账引擎", "desc": "短信 + 账单智能识别，把手动记账变成自动归集", "metric_value": "-70%", "metric_label": "记账耗时"},
+        {"status": "done", "status_label": "已完成", "title": "家庭账本", "desc": "多人共享账本，覆盖家庭场景的协作记账", "metric_value": "38万", "metric_label": "家庭用户"},
+        {"status": "done", "status_label": "已完成", "title": "会员体系 2.0", "desc": "权益分层重构，付费路径更清晰", "metric_value": "8.6万", "metric_label": "付费会员"},
+        {"status": "done", "status_label": "已完成", "title": "年度账单 H5", "desc": "社交化年度报告，带来一波自传播拉新", "metric_value": "2400万", "metric_label": "传播 PV"}
+      ]
+    },
+    {
+      "layout": "image-text",
+      "header": {"num": "04", "title": "待解问题（诚实复盘）", "en": "OPEN ISSUES"},
+      "items": [
+        {"num": "01", "title": "付费转化偏低", "desc": "整体付费转化率 2.0%，低于行业 3-5%，权益感知和付费时机有优化空间", "metric": "转化率 2.0%"},
+        {"num": "02", "title": "识别准确率待提升", "desc": "自动记账识别准确率 85%，长尾商户和复杂账单识别仍弱", "metric": "准确率 85%"},
+        {"num": "03", "title": "安卓端稳定性", "desc": "部分低端机型崩溃率偏高，直接影响新用户次日留存", "metric": "崩溃率 0.8%"}
+      ]
+    },
+    {
+      "layout": "progress-cards",
+      "header": {"num": "05", "title": "2026 规划方向", "en": "WHAT'S NEXT"},
+      "cards": [
+        {"status": "plan", "status_label": "规划中", "title": "AI 记账助手", "desc": "大模型驱动的对话式记账 + 个性化财务建议"},
+        {"status": "plan", "status_label": "规划中", "title": "付费转化优化", "desc": "会员权益与定价体系重设计，提升付费转化"},
+        {"status": "plan", "status_label": "规划中", "title": "出海东南亚", "desc": "多币种 + 本地化，首站试点验证模式"}
+      ]
+    },
+    {
+      "layout": "thanks",
+      "eyebrow": "END OF REVIEW",
+      "display": "Thank You",
+      "cn": "2025 已成，2026 再战",
+      "sub": "省心记账 · 产品与增长团队"
+    }
+  ]
+}
